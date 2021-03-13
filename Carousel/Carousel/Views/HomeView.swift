@@ -11,8 +11,8 @@ struct HomeView : View {
     
     @State var index = 0
     @State var stories = [
-        CarouselExtension(id: 0, image: "p0", offset: 0,title: "Jack the Persian and the Black Castel"),
-        CarouselExtension(id: 1, image: "p1", offset: 0,title: "The Dreaming Moon"),
+        CarouselExtension(id: 0, image: "p0", offset: 0,title: "Black Castel"),
+        CarouselExtension(id: 1, image: "p1", offset: 0,title: "Dreaming Moon"),
         CarouselExtension(id: 2, image: "p2", offset: 0,title: "Fallen In Love"),
         CarouselExtension(id: 3, image: "p3", offset: 0,title: "Hounted Ground")]
     @State var scrolled = 0
@@ -23,10 +23,10 @@ struct HomeView : View {
             VStack{
                 HStack{
                     Button(action: {}) {
-                        Image(systemName: "line.horizontal.3")
+                        Image(systemName: "line.horizontal.3.decrease")
                             .font(Font.title.weight(.medium))
                             .imageScale(.small)
-                            .foregroundColor(.white)
+                            .foregroundColor(.black)
                     }
                     
                     Spacer()
@@ -34,7 +34,7 @@ struct HomeView : View {
                         Image(systemName: "magnifyingglass")
                             .font(Font.title.weight(.medium))
                             .imageScale(.small)
-                            .foregroundColor(.white)
+                            .foregroundColor(.black)
                     }
                 }
                 .padding()
@@ -42,13 +42,13 @@ struct HomeView : View {
                 HStack{
                     Text("Trending")
                         .font(.system(size: 40, weight: .bold))
-                        .foregroundColor(.white)
+                        .foregroundColor(.black)
                     Spacer(minLength: 0)
                     Button(action: {}) {
                         Image(systemName: "ellipsis")
                             .font(Font.title.weight(.medium))
                             .imageScale(.small)
-                            .foregroundColor(.white)
+                            .foregroundColor(.black)
                     }
                 }
                 .padding(.horizontal)
@@ -60,7 +60,7 @@ struct HomeView : View {
                         .fontWeight(.bold)
                         .padding(.vertical,6)
                         .padding(.horizontal,20)
-                        .background(Color.blue.opacity(index == 0 ? 1 : 0))
+                        .background(Color.black.opacity(index == 0 ? 1 : 0))
                         .clipShape(Capsule())
                         .onTapGesture {
                             index = 0
@@ -72,7 +72,7 @@ struct HomeView : View {
                         .fontWeight(.bold)
                         .padding(.vertical,6)
                         .padding(.horizontal,20)
-                        .background(Color.blue.opacity(index == 01 ? 1 : 0))
+                        .background(Color.black.opacity(index == 01 ? 1 : 0))
                         .clipShape(Capsule())
                         .onTapGesture {
                             index = 1
@@ -108,7 +108,7 @@ struct HomeView : View {
                                             .foregroundColor(.white)
                                             .padding(.vertical,6)
                                             .padding(.horizontal,25)
-                                            .background(Color.blue)
+                                            .background(Color.black)
                                             .clipShape(Capsule())
                                     }
                                 }
@@ -159,13 +159,13 @@ struct HomeView : View {
                 HStack{
                     Text("Favorites")
                         .font(.system(size: 40, weight: .bold))
-                        .foregroundColor(.white)
+                        .foregroundColor(.black)
                     Spacer(minLength: 0)
                     Button(action: {}) {
                         Image(systemName: "ellipsis")
                             .font(Font.title.weight(.medium))
                             .imageScale(.small)
-                            .foregroundColor(.white)
+                            .foregroundColor(.black)
                     }
                 }
                 .padding(.horizontal)
@@ -178,7 +178,7 @@ struct HomeView : View {
                         .fontWeight(.bold)
                         .padding(.vertical,6)
                         .padding(.horizontal,20)
-                        .background(Color.blue.opacity(index1 == 0 ? 1 : 0))
+                        .background(Color.black.opacity(index1 == 0 ? 1 : 0))
                         .clipShape(Capsule())
                         .onTapGesture {
                             index1 = 0
@@ -189,7 +189,7 @@ struct HomeView : View {
                         .fontWeight(.bold)
                         .padding(.vertical,6)
                         .padding(.horizontal,20)
-                        .background(Color.blue.opacity(index1 == 01 ? 1 : 0))
+                        .background(Color.black.opacity(index1 == 01 ? 1 : 0))
                         .clipShape(Capsule())
                         .onTapGesture {
                             index1 = 1
