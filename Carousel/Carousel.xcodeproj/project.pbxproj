@@ -11,8 +11,8 @@
 		3A1805A825FD1F0000F43B44 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1805A725FD1F0000F43B44 /* ContentView.swift */; };
 		3A1805AA25FD1F0200F43B44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A1805A925FD1F0200F43B44 /* Assets.xcassets */; };
 		3A1805AD25FD1F0200F43B44 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A1805AC25FD1F0200F43B44 /* Preview Assets.xcassets */; };
-		3A1805B725FD1F1200F43B44 /* CarouselExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1805B625FD1F1200F43B44 /* CarouselExtension.swift */; };
-		3A1805BD25FD1F4000F43B44 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1805BC25FD1F4000F43B44 /* HomeView.swift */; };
+		3AF29F3625FD49620052A803 /* CarouselExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF29F3525FD49620052A803 /* CarouselExtension.swift */; };
+		3AF29F3B25FD49810052A803 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF29F3A25FD49810052A803 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,8 +22,8 @@
 		3A1805A925FD1F0200F43B44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A1805AC25FD1F0200F43B44 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3A1805AE25FD1F0200F43B44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3A1805B625FD1F1200F43B44 /* CarouselExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarouselExtension.swift; sourceTree = "<group>"; };
-		3A1805BC25FD1F4000F43B44 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		3AF29F3525FD49620052A803 /* CarouselExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CarouselExtension.swift; path = ../../../Carousel/Carousel/Extensions/CarouselExtension.swift; sourceTree = "<group>"; };
+		3AF29F3A25FD49810052A803 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeView.swift; path = ../../../Carousel/Carousel/Views/HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +78,7 @@
 		3A1805B525FD1F1200F43B44 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				3A1805B625FD1F1200F43B44 /* CarouselExtension.swift */,
+				3AF29F3525FD49620052A803 /* CarouselExtension.swift */,
 			);
 			name = Extensions;
 			path = ../../Story/Story/Extensions;
@@ -87,7 +87,7 @@
 		3A1805BB25FD1F4000F43B44 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				3A1805BC25FD1F4000F43B44 /* HomeView.swift */,
+				3AF29F3A25FD49810052A803 /* HomeView.swift */,
 			);
 			name = Views;
 			path = ../../Story/Story/Views;
@@ -163,8 +163,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A1805A825FD1F0000F43B44 /* ContentView.swift in Sources */,
-				3A1805BD25FD1F4000F43B44 /* HomeView.swift in Sources */,
-				3A1805B725FD1F1200F43B44 /* CarouselExtension.swift in Sources */,
+				3AF29F3625FD49620052A803 /* CarouselExtension.swift in Sources */,
+				3AF29F3B25FD49810052A803 /* HomeView.swift in Sources */,
 				3A1805A625FD1F0000F43B44 /* CarouselApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
